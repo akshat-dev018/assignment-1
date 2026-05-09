@@ -1,4 +1,3 @@
-
 *{
  margin: 0;
  padding: 0;
@@ -10,7 +9,6 @@ body{
 height: 100%;
  width: 100%;
  background-color: black;
-
 }
 
 .navbar{
@@ -66,16 +64,16 @@ button{
 .title{
      color: white;
     text-align: center;
-    font-size: 120px;
+    font-size: 70px;
     font-weight: 1000;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .categories{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .categories button{
@@ -100,12 +98,12 @@ button{
 .card{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-top: 60px;
-    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: nowrap;
 }
 .cardinfo{
-    width: 350px;
+    width: 260px;
     background-color: #111;
     border-radius: 20px;
     overflow: hidden;
@@ -118,8 +116,7 @@ button{
 }
 
 .cardinfo img{
-    width: 100%;
-    height: 250px;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -137,7 +134,7 @@ button{
 }
 
 .card h2{
-    font-size: 38px;
+    font-size: 22px;
     line-height: 1.2;
     margin-bottom: 15px;
 }
